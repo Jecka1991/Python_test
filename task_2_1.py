@@ -1,3 +1,5 @@
-a = 1
 
-print(a)
+
+greeting = 'Hello, world!'
+
+print(greeting[2])
