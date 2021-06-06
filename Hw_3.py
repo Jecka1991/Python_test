@@ -24,3 +24,8 @@ if string[mid] == string[0]:
 
 name = input('input your name ')
 print('Hello, ' + name + '!')
+
+first_number = int(input('input first number '))
+second_number = int(input('input second number '))
+summ = first_number + second_number
+print(str(first_number) + '+' + str(second_number) + '=' + str(summ))
