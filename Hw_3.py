@@ -15,3 +15,9 @@ if len(string) > 10:
     print(string + '!!!')
 else:
     print(string[1])
+
+string = "Hello, my dear friend"
+mid = int(len(string) / 2)
+print(string[mid])
+if string[mid] == string[0]:
+    print(string[1:-1])
