@@ -9,3 +9,9 @@ elif number_of_guests >= 20:
     print('cafe')
 else:
     print('home')
+
+string = "Hello, my dear friend"
+if len(string) > 10:
+    print(string + '!!!')
+else:
+    print(string[1])
