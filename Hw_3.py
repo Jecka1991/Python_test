@@ -29,3 +29,10 @@ first_number = int(input('input first number '))
 second_number = int(input('input second number '))
 summ = first_number + second_number
 print(str(first_number) + '+' + str(second_number) + '=' + str(summ))
+
+string_new = input('input two word ')
+string_new_list = string_new.split(' ')
+print('!' + string_new_list[1] + ' ' + string_new_list[0] + '!')
+
+
+
