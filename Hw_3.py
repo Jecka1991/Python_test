@@ -21,3 +21,6 @@ mid = int(len(string) / 2)
 print(string[mid])
 if string[mid] == string[0]:
     print(string[1:-1])
+
+name = input('input your name ')
+print('Hello, ' + name + '!')
