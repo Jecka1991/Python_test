@@ -39,5 +39,11 @@ length = len(quote)
 if length % 3 == 0:
     print(quote + '!')
 
+quote_2 = 'This is SPARTA!'
+if 'code' in quote_2:
+    print('Yes')
+else:
+    print('No')
+
 
 
