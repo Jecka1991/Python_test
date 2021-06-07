@@ -34,5 +34,10 @@ string_new = input('input two word ')
 string_new_list = string_new.split(' ')
 print('!' + string_new_list[1] + ' ' + string_new_list[0] + '!')
 
+quote = 'No money, no honey'
+length = len(quote)
+if length % 3 == 0:
+    print(quote + '!')
+
 
 
