@@ -87,6 +87,39 @@ elif discr == 0:
 else:
     print("Корней нет")
 
+how_ruble = input('Введите количество рублей ')
+d = int(how_ruble[-2:])
+a = int(how_ruble[-1])
+c = int(how_ruble)
+how_penny = input('Введите количество копеек ')
+
+if d > 10 and d < 20:
+    print(str(c) + ' рублей')
+elif a == 1:
+    print(str(c) + ' рубль')
+elif a > 1 and a < 5:
+    print(str(c) + ' рубля')
+elif a == 0:
+ print(str(c) + ' рублей')
+else:
+  print(str(c) + ' рублей')
+
+f = int(how_penny[-2:])
+e = int(how_penny[-1])
+b = int(how_penny)
+
+if d > 10 and d < 20:
+  print(str(b) + ' копеек')
+elif e > 1 and e < 5:
+  print(str(b) + ' копейки')
+elif e == 0:
+  print(str(b) + ' копеек')
+elif e == 1:
+  print(str(b) + ' копейка')
+else:
+ (str(b) + ' копеек')
+
+
 
 
 
