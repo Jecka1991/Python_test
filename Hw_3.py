@@ -120,6 +120,15 @@ else:
  (str(b) + ' копеек')
 
 
+mail = input('Введите почтовый адрес ')
+need_mail = mail[-9:]
+check_address = 'gmail.com'
+if need_mail in check_address:
+    print(mail)
+else:
+    print('“DOMAIN NAME is not supported’')
+
+
 
 
 
