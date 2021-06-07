@@ -45,5 +45,13 @@ if 'code' in quote_2:
 else:
     print('No')
 
+age = int(input('input your age, please '))
+if age < 0:
+    print('Wrong input')
+elif age < 18:
+    print('CocaCola')
+else:
+    print('Beer')
+
 
 
