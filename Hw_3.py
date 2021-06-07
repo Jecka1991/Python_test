@@ -53,5 +53,15 @@ elif age < 18:
 else:
     print('Beer')
 
+value = input('input string ')
+length = int(len(value))
+if length > 5:
+    print(length)
+elif length < 5:
+    print('Need more!')
+else:
+    print('It is five')
+
+
 
 
