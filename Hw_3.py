@@ -62,6 +62,10 @@ elif length < 5:
 else:
     print('It is five')
 
+number_one = (input('input your happy number '))
+if number_one.isdigit():
+    print(int(number_one) ** 3)
+
 
 
 
